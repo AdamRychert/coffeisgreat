@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Strona o kawie</title>
+    <link rel="shortcut icon" href="img/logokawa.png">
+    <meta name="description" content="projekt wia">
+    <meta name="keywords" content="projekt, programowanie">
+    <meta name="author" content="Adam Rychert">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="topnav" id="myTopnav">
+        <nav onmouseleave="myFunction()">
+            <a href="#about-site" class="active" onclick="myFunction()">O Stronie</a>
+            <a href="#artykuły">ARTYKUŁY</a>
+            <a href="#video" id="slide">Video</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="index.html" id="img"><img src="img/logomenu.png" href="index.html"></a>
+        </nav>
+    </header>
+    <!-- site baner -->
+    <div class="wrapper">
+        <video class="bcvideo bcv-border" id="video" controls>
+            <source src="video/tlo.mp4" type="video/mp4" />
+        </video>
+        <a href="#" class="link-block1 link-block"></a>
+        <a href="#" class="link-block2 link-block"></a>
+        <a href="#" class="link-block3 link-block"></a>
+        <a href="#" class="link-block4 link-block"></a>
+        <a href="#" class="link-block5 link-block"></a>
+        <a href="#" class="link-block6 link-block"></a>
+        <a href="#" class="link-block7 link-block"></a>
+        <h1>Kawa to styl życia...</h1>
+
+        <!-- Next video -->
+        <div class="block1 block" id="b1">
+            <div></div>
+        </div>
+        
+        <!-- <div class="block1 block" id="b1">
+            
+        </div>
+
+        <div class="block2 block" id="b2">
+         
+        </div>
+        <div class="block3 block" id="b3">
+          
+        </div>
+
+        <div class="block4 block" id="b4">
+         
+        </div>
+
+        <div class="block5 block" id="b5">
+     
+        </div>
+
+        <div class="block6 block" id="b6">
+ 
+        </div> -->
+    </div>
+    <!-- Blog Section -->
+    <main>
+        <section class="main-article">
+            <article id="about-site">
+                <h3>Cel Strony <img src="img/logomenu.png" class="logo"></h3>
+                <figure>
+                    <img src="img/post1.jpg" alt="Zdjęcie przedstawiające kawe">
+                </figure>
+                <p>Strona ta została wykonana, aby wychwalać napój bogów, zwany też kawą. Kawa ma w sobie wszystko, co
+                    jest potrzebne aby osiągnąć szczęście w życiu. Jest kolor jest idealny, zapach od zarania dziejów
+                    krulował nad innymi. Trunek ten ma wielu swoich zwolenników. Wielu z nich nie wyobraża sobie innego
+                    rozpoczącia dnia, niż od solidnego kubka kawy.</p>
+                <footer><em>Autor: Adam Rychert </em><br><em>Data: 20-03-2019</em></footer>
+                <p>Troche muzyki:</p>
+                <audio controls>
+                    <source src="Way Down We Go.mp3" type="audio/ogg">
+                </audio>
+            </article>
+        </section>
+        <section class="aside-article" id="artykuły">
+            <article>
+                <h3><a href="#">Latte Art</a><img src="img/logomenu.png" class="logo"></h3>
+                <figure>
+                    <img src="img/art.jpg" id="art">
+                </figure>
+                <p> Jest to sztuka tworzenia rysunków i wzorów z mleka na powierzchni kawy espresso. Zarówno kawa jak i
+                    mleko są specjalnie przygotowywane. Mleko jest spieniane gorącą parą, do wykonywania wzorów używa
+                    się mlecznej pianki, którą nanosi się na powierzchnię kawy. Trwałość wzoru zależy od jakości maszyny
+                    do parzenia oraz doświadczenia baristy.</p>
+                <footer><em>Autor: Adam Rychert </em><br><em>Data: 20-03-2019</em></footer>
+            </article>
+            <article>
+                <h3><a href="#">Historia Kawy</a><img src="img/logomenu.png" class="logo"></h3>
+                <figure>
+                    <img src="img/historia.jpg">
+                </figure>
+                <p>Owoce kawowca wykorzystywane były w Etiopii już w I tysiącleciu p.n.e. Spożywano je gotowane z
+                    dodatkiem masła i soli, lecz nie uprawiano, tylko zbierano ze stanowisk naturalnych. Prawdopodobnie
+                    kawę odkrył lud Oromo, zamieszkujący etiopski region Kaffa. Przypuszczalnie w XIII lub XIV wieku
+                    przywiezione zostały przez kupców arabskich do Jemenu, który do dziś dostarcza najdroższą kawę.
+                    Prawdopodobnie tam opracowano metodę preparowania nasion przez prażenie i wytwarzanie z nich napoju,
+                    który Beduini rozpowszechnili w całej Arabii. Z odkryciem kawy wiążą się dwie legendy. Pierwsza
+                    przypisuje związane z tym zasługi sufiemu Shaikh ash-Shadhilemu. Miał on w czasie swojej wędrówki po
+                    Afryce przypadkiem natrafić na stado wyjątkowo pobudzonych kóz. Z ciekawości spróbował zjadanych
+                    przez nie owoców, poznając ich niezwykły wpływ na organizm człowieka. Druga, bardzo podobna
+                    historiajako odkrywcę podaje etiopskiego pasterza o imieniu Kaldi.</p>
+                <footer><em>Autor: Adam Rychert </em><br><em>Data: 20-03-2019</em></footer>
+            </article>
+            <article>
+                <h3></h3>
+            </article>
+            <article>
+                <h3></h3>
+            </article>
+            <article>
+                <h3></h3>
+            </article>
+        </section>
+    </main>
+    <footer id="about">
+        <section class="social-media">
+            <figure class="icon"><img src="img/facebook.png"></figure>
+            <figure class="icon"><img src="img/instagram.png"></figure>
+            <figure class="icon"><img src="img/g+.png"></figure>
+            <figure class="icon"><img src="img/yt.png"></figure>
+        </section>
+        <section class="copyright">
+            <p>&copy; 2019 made by:Adam Rychert || All rights reserved <p>
+        </section>
+    </footer>
+    <script src="jquery.js"></script>
+    <script src="transit.js"></script>
+    <!--http://ricostacruz.com/jquery.transit/ -->
+    <script>
+        $(window).scroll(function () {
+            var top = $(window).scrollTop();
+            var find_class_small = $.contains('topnav', '.small');
+
+            if (top > 50 && find_class_small == false) {
+                $('nav').addClass('small');
+            } else {
+                $('nav').removeClass('small');
+            }
+
+        });
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+        $('#slide').click(function () {
+            $(".link-block1").transition({
+                x: '-440px',
+                y: '-440px',
+                duration: 1000
+            })
+            $(".link-block2").transition({
+                x: '-140px',
+                y: '-440px',
+                duration: 1000
+            })
+            $(".link-block3").transition({
+                x: '-1540px',
+                y: '-140px',
+                duration: 1000
+            })
+            $(".link-block4").transition({
+                x: '1540px',
+                y: '-440px',
+                duration: 1000
+            })
+            $(".link-block5").transition({
+                x: '540px',
+                y: '-440px',
+                duration: 1000
+            })
+            $(".link-block6").transition({
+                x: '-1740px',
+                y: '440px',
+                duration: 1000
+            })
+            $(".link-block7").transition({
+                x: '1740px',
+                y: '40px',
+                duration: 1000
+            }, function () {
+                $("#video").css({
+                    zIndex: 3
+                })
+                $('#slide').click(function () {
+                $("#video").css({
+                    zIndex: -1
+                })
+                $(".link-block1").transition({
+                x: '0px',
+                y: '0px',
+                 duration: 1000
+            })
+            $(".link-block1").transition({
+                x: '0px',
+                y: '0px',
+                 duration: 1000
+            })
+            $(".link-block2").transition({
+                x: '0px',
+                y: '0px',
+                 duration: 1000
+            })
+            $(".link-block3").transition({
+                x: '0px',
+                y: '0px',
+                 duration: 1000
+            })
+            $(".link-block4").transition({
+                x: '0px',
+                y: '0px',
+                 duration: 1000
+            })
+            $(".link-block5").transition({
+                x: '0px',
+                y: '0px',
+                 duration: 1000
+            })
+            $(".link-block6").transition({
+                x: '0px',
+                y: '0px',
+                 duration: 1000
+            })
+            $(".link-block7").transition({
+                x: '0px',
+                y: '0px',
+                 duration: 1000
+            })
+                })
+            });
+        });
+
+        var aud = document.getElementById("video");
+        aud.onended = function () {
+            var block = document.getElementById("b1");
+            block.style.zIndex = 4;
+            // $(".wrapper").css('grid-gap', '10px');
+            // var block = document.getElementById("b1");
+            // block.style.zIndex = 4;
+            // var block = document.getElementById("b2");
+            // block.style.zIndex = 4;
+            // var block = document.getElementById("b3");
+            // block.style.zIndex = 4;
+            // var block = document.getElementById("b4");
+            // block.style.zIndex = 4;
+            // var block = document.getElementById("b5");
+            // block.style.zIndex = 4;
+            // var block = document.getElementById("b6");
+            // block.style.zIndex = 4;
+
+        };
+    </script>
+
+</body>
+
+</html>
