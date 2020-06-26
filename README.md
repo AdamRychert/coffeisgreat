@@ -1,3 +1,3 @@
 # School project 
 
-preview: coffeisgreat.000webhostapp.com
+preview with graphics(takes some time to load): coffeisgreat.000webhostapp.com
