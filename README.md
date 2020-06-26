@@ -1,2 +1,2 @@
-# Blog
-First HTML steps
+# School project 
+
